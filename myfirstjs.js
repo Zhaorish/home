@@ -1,35 +1,44 @@
-// if (2*4 == 8) {
-//   console.log('Верно');
-// } else{
-//   console.log('Не верно');
+// let num = 20;
+//
+// function showFirstMessage(text) {
+//   alert(text);
+//   let num = 10;
+//   console.log(num);
+// }
+//
+// showFirstMessage("Hello world!");
+// console.log(num);
+//
+// function calc(a, b) {
+//   return (a + b);
+// }
+//
+// let calc = function (a, b) {
+//   return (a + b);
 // }
 
 
-let num = 50;
+// let calc = (a,b) => a+b; // es6 код
+// console.log( calc(3, 4) );
+// console.log( calc(7, 5) );
+//
+// function retVar() {
+//   let num = 50;
+//   return num;
+// }
+//
+// let anotherNum = retVar();
+//
+// console.log(anotherNum);
 
-// if (num < 49){
-//   console.log('Не верно');
-// } else if (num > 100){
-// console.log('Много')
-// } else {
-//   console.log('Верно!');
-// };
-// (num == 50) ? console.log('Верно') : console.log('Не верно'); //Упрощённая запись строк 10-16
 
-switch (num){
-  case num < 49:
-     console.log('Неверно!');
-     break;
-  case num > 100:
-     console.log('Много!');
-     break;
-  case num > 80:
-     console.log('Всё ещё много!');
-     break;
-  case 50:
-     console.log('Верно!');
-     break;
-  default:
-     console.log('Что-то пошло не так!');
-     break;
-}
+// let str = "test";
+// console.log(str.length);
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+
+let twelve = "12.2px";
+// console.log(Math.round(twelve));
+console.log(parseInt(twelve));
+console.log(parseFloat(twelve));
